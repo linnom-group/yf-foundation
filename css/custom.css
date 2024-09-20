@@ -1,0 +1,39 @@
+.blue-background{
+    background-color: #1c9cd9;
+}
+
+.darkblue-background{
+    background-color: #293780;
+}
+
+.red-background{
+    background-color: #ed312f;
+}
+
+.yff-padding60{
+    padding: 60px;
+}
+
+.yff-padding20{
+    padding: 20px;
+}
+
+.img-border-50{
+    border-radius: 50%;
+    border: 15px solid #e7a922;
+}
+
+.img-border-10{
+    border-radius: 10%;
+    border: 15px solid #e7a922;
+}
+
+.innovate-color{
+    color: #e7a922;
+}
+.incubate-color{
+    color: #1c9cd9;
+}
+.Inspire-color{
+    color: red;
+}
