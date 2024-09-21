@@ -38,8 +38,34 @@
     color: red;
 }
 
+.flexslider-overlay {
+    background-color: rgb(31 39 50 / 89%) !important;
+}
+
+
 @media (min-width: 992px) {
     .page_slider .intro_featured_word {
-        font-size: 100px !important;
+        font-size: 90px !important;
+    }
+    .img-back {
+        background-image: url('/images/yff/funding.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+}
+
+
+
+@media (max-width: 767px) {
+    .page_slider .intro_featured_word {
+        font-size: 50px  !important;
+        margin-top: 6px;
+    }
+
+    .img-back {
+        background-image: url('/images/yff/funding2.jpg');
+        background-size: cover;  /* ensure image covers */
+        background-position: center;  /* keep the image centered */
     }
 }
